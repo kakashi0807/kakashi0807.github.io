@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -18,7 +22,7 @@ $(document).ready(function() {
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['firstPage', 'secondPage'],
+		anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection'],
 		navigation: false,
 		navigationPosition: 'right',
 		navigationTooltips: ['firstSlide', 'secondSlide'],
@@ -92,14 +96,52 @@ $(document).ready(function() {
 
 <body>
 <div id="fullpage">
-	<div class="section active">Some section</div>
-	<div class="section">Some section</div>
-	<div class="section">Some section</div>
-	<div class="section">
-		<audio data-autoplay>
-			<source src="http://metakoncept.hr/horse.ogg" type="audio/ogg">
-
-		</audio>
+	<div class="header-top clearfix">
+		<h1 class="l-left">
+			<a href="#firstSection">Your Logo</a>
+		</h1>
+		<a class="l-right toggle-menu" href="#">
+			<i></i>
+			<i></i>
+			<i></i>
+		</a>
+	</div>
+	<nav class="hide">
+		<ul id="menu">
+			<li data-menuanchor="firstSection">
+				<a href="#firstSection" title="First Section">First Section</a>
+			</li>
+			<li data-menuanchor="secondSection">
+				<a href="#secondSection" title="Second Section">Second Section</a>
+			</li>
+			<li data-menuanchor="thirdSection">
+				<a href="#thirdSection" title="Second Section">Second Section</a>
+			</li>
+			<li data-menuanchor="fourthSection">
+				<a href="#fourthSection" title="Second Section">Second Section</a>
+			</li>
+			<!-- more list items here -->
+		</ul>
+	</nav>
+	<div class="section center" data-anchor="firstSlide">
+		<div class="text-center bg-info">
+		  <img src="images/thiep_cuoi_1.jpg" class="rounded"/>
+		</div>
+	</div>
+	<div class="section  center" data-anchor="secondSection">
+		<div class="text-center bg-info">
+		  <img src="images/thiep_cuoi_2.jpg" class="rounded"/>
+		</div>
+	</div>
+	<div class="section center" data-anchor="thirdSection">
+		<div class="text-center bg-info">
+		  <img src="images/thiep_cuoi_3.jpg" class="rounded"/>
+		</div>
+	</div>
+	<div class="section center" data-anchor="fourthSection">
+		<div class="text-center bg-info">
+		  <img src="images/thiep_cuoi_4.jpg" class="rounded"/>
+		</div>
 	</div>
 </div>
 </body>
