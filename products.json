@@ -117,5 +117,22 @@
       "small": "assets/images/7.jpg",
       "large": "assets/images/7.jpg"
     }
+  },
+  {
+    "id": 8,
+    "name": "Thiệp cưới 8",
+    "price": 1000,
+    "specs": {
+      "manufacturer": "thiepcuoi",
+      "storage": 16,
+      "os": "Android",
+      "camera": 15
+    },
+    "description": "Thiếp cưới Thanh Xuân\nLH 0978 35 41 48",
+    "rating": 4,
+    "image": {
+      "small": "assets/images/8.jpg",
+      "large": "assets/images/8.jpg"
+    }
   }
 ]
