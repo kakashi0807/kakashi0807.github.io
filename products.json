@@ -32,7 +32,8 @@
       "small": "assets/images/2.jpg",
       "large": "assets/images/2.jpg"
     }
-  },{
+  },
+  {
     "id": 3,
     "name": "Thiệp cưới 3",
     "price": 1000,
@@ -48,7 +49,8 @@
       "small": "assets/images/3.jpg",
       "large": "assets/images/3.jpg"
     }
-  },{
+  },
+  {
     "id": 4,
     "name": "Thiệp cưới 4",
     "price": 1000,
@@ -64,7 +66,8 @@
       "small": "assets/images/4.jpg",
       "large": "assets/images/4.jpg"
     }
-  },{
+  },
+  {
     "id": 5,
     "name": "Thiệp cưới 5",
     "price": 1000,
@@ -80,7 +83,8 @@
       "small": "assets/images/5.jpg",
       "large": "assets/images/5.jpg"
     }
-  },{
+  },
+  {
     "id": 6,
     "name": "Thiệp cưới 6",
     "price": 1000,
@@ -96,7 +100,8 @@
       "small": "assets/images/6.jpg",
       "large": "assets/images/6.jpg"
     }
-  },{
+  },
+  {
     "id": 7,
     "name": "Thiệp cưới 7",
     "price": 1000,
@@ -112,5 +117,5 @@
       "small": "assets/images/7.jpg",
       "large": "assets/images/7.jpg"
     }
-  },
+  }
 ]
